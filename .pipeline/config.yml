@@ -1,7 +1,12 @@
+
+general:
+  cpiApiServiceKeyCredentialsId: "roverazurewesteu20-credentials"
+  integrationFlowId: "ReceiveAdvice"
+stages:
+  uploadStage:
+    enabled: true
 steps:
   integrationArtifactUpload:
-    cpiApiServiceKeyCredentialsId: roverazurewesteu20-credentials
-    integrationFlowId: ReceiveAdvice
-    integrationFlowName: ReceiveAdvice
-    packageId: SunnysPackage
+    packageId: "SunnysPackage"
+    integrationFlowName: "ReceiveAdvice"
     filePath: ReceiveAdvice.zip
