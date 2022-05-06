@@ -9,4 +9,4 @@ steps:
   integrationArtifactUpload:
     packageId: "SunnysPackage"
     integrationFlowName: "ReceiveAdvice"
-    filePath: ReceiveAdvice.zip
+    filePath: "ReceiveAdvice.zip"
