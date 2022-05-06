@@ -14,3 +14,4 @@ steps:
     packageId: "SunnysPackage"
     integrationFlowName: "ReceiveAdvice"
     filePath: "ReceiveAdvice.zip"
+    verbose:true
