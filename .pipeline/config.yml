@@ -5,6 +5,10 @@ general:
 stages:
   uploadStage:
     enabled: true
+  deployStage:
+    enabled: false
+  integrationTestStage:
+    enabled: false
 steps:
   integrationArtifactUpload:
     packageId: "SunnysPackage"
